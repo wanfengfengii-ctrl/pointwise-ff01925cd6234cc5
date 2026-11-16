@@ -19,6 +19,6 @@
     "-B",
     "-m",
     "survey",
-    "demo"
+    "all"
   ]
 }
