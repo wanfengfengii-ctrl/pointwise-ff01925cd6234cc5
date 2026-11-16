@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "kind": "cli",
+  "setup": [],
+  "verify": [
+    "python3.11",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_*.py",
+    "-v"
+  ],
+  "demo": [
+    "python3.11",
+    "-B",
+    "-m",
+    "survey",
+    "demo"
+  ]
+}
